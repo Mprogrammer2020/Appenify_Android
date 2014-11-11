@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/BackkgroundLay1"
+    android:background="@drawable/splash_1" >
+    
+       <ImageView 
+           android:id="@+id/agree_and_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+		android:layout_alignParentBottom="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="agreeContinue"
+        />
+
+       <RelativeLayout
+           
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/agree_and_continue"
+           android:layout_alignParentLeft="true"
+           android:layout_marginBottom="20dp"
+          android:background="#66424210"
+             android:paddingBottom="5dp"
+            >
+
+           <ImageView
+               android:id="@+id/terms_and_continue"
+               android:layout_width="259dp"
+               android:layout_height="31dp"
+                android:layout_marginLeft="13dp"
+                android:onClick="agreeContinue"
+                android:background="@drawable/trms_cond" 
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+           <ImageView
+               android:id="@+id/privacyPolicy"
+               android:layout_width="168dp"
+               android:layout_height="31dp"
+               android:layout_alignParentRight="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginRight="14dp"
+                 android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:onClick="agreeContinue"
+                    android:background="@drawable/privacy_policy"
+                   
+               />
+
+       </RelativeLayout>
+
+       </RelativeLayout>

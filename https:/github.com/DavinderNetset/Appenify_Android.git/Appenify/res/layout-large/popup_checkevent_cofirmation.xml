@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/viewPhoneNumberPopUpContainer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#ffffff" >
+
+        
+           <RelativeLayout
+        android:id="@+id/confirm_wed_Lay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="@color/orange" >
+        
+        <TextView
+            android:id="@+id/confirm_wed_Text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+            android:text="@string/comment_event_title"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true" />
+        
+         </RelativeLayout>
+         
+        <TextView
+            android:id="@+id/viewPhoneText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/confirm_wed_Lay"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:textSize="25sp"
+            android:text="@string/Check_In_at"
+            android:gravity="center_horizontal" 
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"/>
+
+        <RelativeLayout
+            android:id="@+id/PopUpButtonContainer"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_below="@+id/viewPhoneText2"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="50" 
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+
+            <RelativeLayout 
+                android:id="@+id/relLay11"
+              android:layout_width="110dp"
+            android:layout_height="55dp"
+            android:background="@color/gray"
+            android:layout_marginRight="10dp"
+                >
+                <ImageView 
+                    android:id="@+id/aaaaa"
+                   android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@drawable/cross_icon"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="1dp"
+                    />
+            <Button
+                android:id="@+id/cancel_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:background="@android:color/transparent"
+                android:text="@string/cancel"
+                android:layout_marginLeft="4dp"
+                android:textSize="25sp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/aaaaa"
+                 android:textColor="#ffffff" />
+	</RelativeLayout>
+         
+                <RelativeLayout 
+                    android:id="@+id/relLay22"
+              android:layout_width="110dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+           android:layout_toRightOf="@+id/relLay11"
+              android:background="@color/orange_button"
+              android:layout_marginLeft="10dp"
+                >
+            
+                       <ImageView 
+                           android:id="@+id/immm"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:background="@drawable/tick_icon"
+                       android:layout_centerVertical="true"
+            android:layout_marginRight="4dp"
+                    />
+            <Button
+                android:id="@+id/checkIn_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:background="@android:color/transparent"
+               android:layout_centerVertical="true"
+                android:text=""
+                android:textSize="25sp"
+                android:layout_toRightOf="@+id/immm"
+                android:textColor="#ffffff" />
+            </RelativeLayout> 
+            
+       </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp" 
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/evnt_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp" />
+
+        <TextView
+            android:id="@+id/evnt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/evnt_image"
+            android:textColor="@android:color/black"
+            android:textSize="32sp"
+            android:paddingLeft="8dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/evnt_title"
+            android:layout_toRightOf="@+id/evnt_image"
+            android:text="@string/event_user_name"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:paddingLeft="8dp"
+            android:textColor="@color/grayText" />
+
+        <TextView
+            android:id="@+id/mor_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/desc"
+            android:layout_toRightOf="@+id/evnt_image"
+            android:text="@string/event_start_date"
+            android:layout_marginTop="3dp"
+            android:textSize="25sp"
+            android:paddingLeft="8dp"
+            android:textColor="@android:color/darker_gray" />
+
+        <ImageView
+            android:id="@+id/fwd_arr"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8.5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/red_arrow" />
+    </RelativeLayout>
+
+</RelativeLayout>

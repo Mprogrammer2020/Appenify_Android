@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:id="@+id/mainLayyy"
+    android:onClick="verifyResendFunction">
+    
+
+    <RelativeLayout 
+    android:id="@+id/topLayouttt"
+    android:layout_width="fill_parent"
+	android:layout_height="65dp"
+	android:background="#D94949"
+    >
+    
+    <TextView 
+        android:id="@+id/verifyNumberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/enter_passcode"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="5dp"
+        />
+    
+     <ImageView 
+        android:id="@+id/current_view_hint_center"
+        android:layout_width="55dp"
+        android:layout_height="9dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/verifyNumberText"
+        android:layout_marginTop="8dp"
+      android:layout_marginLeft="2dp"
+        android:background="@drawable/top_hover"
+        />
+    
+       <ImageView 
+        android:id="@+id/current_view_hint_left"
+        android:layout_width="55dp"
+        android:layout_height="9dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/verifyNumberText"
+        android:layout_marginTop="8dp"
+         android:layout_marginRight="3dp"
+        android:layout_toLeftOf="@+id/current_view_hint_center"
+        android:background="@drawable/top_hover"
+        />
+       
+         <ImageView 
+        android:id="@+id/current_view_hint_right"
+        android:layout_width="60dp"
+        android:layout_height="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/verifyNumberText"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/current_view_hint_center"
+        android:background="@drawable/top_unslct"
+        />
+</RelativeLayout>
+
+    <TextView 
+        android:id="@+id/enter_password_six"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/enter_6digit_passcode"
+        android:layout_below="@+id/topLayouttt"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        />
+    
+    <TextView 
+        android:id="@+id/error_messsage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hey_whats_good"
+        android:textColor="@color/orange"
+        android:layout_below="@+id/enter_password_six"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="45dp"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        />
+    
+    <LinearLayout 
+        android:id="@+id/enter_pass_Lay"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/error_messsage"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="45dp"
+        >
+        
+        <EditText 
+            android:id="@+id/passcode_edit1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+             android:maxLength="1" 
+             android:gravity="center"
+             android:textAlignment="center"
+             android:singleLine="true"
+             android:textSize="25sp"
+            android:imeOptions="actionNext"
+            android:background="@drawable/border_corner_scale_orange"
+         android:inputType="numberPassword"
+	          
+            />
+        
+        <EditText 
+            android:id="@+id/passcode_edit2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_corner_scale_orange"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:singleLine="true"
+            android:textSize="25sp"
+            android:imeOptions="actionNext"
+            android:gravity="center"
+            android:maxLength="1" 
+            android:inputType="numberPassword"
+	          
+            />
+        
+        <EditText 
+            android:id="@+id/passcode_edit3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:maxLength="1" 
+            android:background="@drawable/border_corner_scale_orange"
+            android:layout_marginLeft="5dp"
+       android:inputType="numberPassword"
+	          
+            />
+        
+          <EditText 
+            android:id="@+id/passcode_edit4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:gravity="center"
+            android:maxLength="1" 
+            android:background="@drawable/border_corner_scale_orange"
+            android:layout_marginLeft="5dp"
+            android:inputType="numberPassword"
+	          
+            />
+          
+            <EditText 
+            android:id="@+id/passcode_edit5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:maxLength="1" 
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@drawable/border_corner_scale_orange"
+            android:layout_marginLeft="5dp"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:inputType="numberPassword"
+	          
+            
+            />
+            
+              <EditText 
+            android:id="@+id/passcode_edit6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:maxLength="1" 
+            android:textSize="25sp"
+            android:background="@drawable/border_corner_scale_orange"
+            android:layout_marginLeft="5dp"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+           android:inputType="numberPassword"
+	          
+            />
+    </LinearLayout>
+    
+    
+    <Button 
+        android:id="@+id/verify_passcode_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/enter_pass_Lay"
+        android:text="@string/verify_passcode"
+        android:background="@color/orange_button"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:onClick="verifyResendFunction"
+        
+                
+        />
+    
+    
+    <TextView 
+        android:id="@+id/did_not_received_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/didnt_received"
+        android:layout_above="@+id/resend_passcode_Btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:textSize="25sp"
+        />
+    
+       <Button 
+        android:id="@+id/resend_passcode_Btn"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+       android:text="@string/resend_passcode"
+        android:background="@color/gray"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textSize="25sp"
+        android:onClick="verifyResendFunction"
+        
+        />
+       
+       
+    
+    
+</RelativeLayout>

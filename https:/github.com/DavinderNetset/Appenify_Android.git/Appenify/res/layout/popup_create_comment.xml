@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout 
+        android:id="@+id/opppppppp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <EditText
+            android:id="@+id/createComment_Edit"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/border_gray"
+            android:gravity="top|left"
+            android:hint="What&apos;s on your mind ?"
+            android:maxLength="300"
+            android:minLines="6"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/textLimit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/createComment_Edit"
+            android:paddingRight="5dp"
+            android:text="@string/text_limit" />
+
+        <LinearLayout 
+              android:layout_below="@+id/textLimit"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+            >
+        <RelativeLayout
+            android:id="@+id/closeCommentLayout"
+            android:layout_width="140dp"
+            android:layout_height="32dp"
+          android:layout_weight="1"
+          android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="4dp"
+            android:background="@drawable/close_2x" >
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/ic_launcher"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/close"
+                android:textSize="20dp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/addCommentLayout"
+            android:layout_width="142dp"
+            android:layout_height="32dp"
+           android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+          android:layout_marginTop="25dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/addcomment" >
+
+            <ImageView
+                android:id="@+id/abcc"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/right_arrow"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/abcc"
+                android:lines="1"
+                android:text="@string/add_comment"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+        </LinearLayout>
+   
+
+    <ImageView
+        android:id="@+id/cancelPop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/cross"
+        android:visibility="gone" />
+</RelativeLayout>
+</RelativeLayout>

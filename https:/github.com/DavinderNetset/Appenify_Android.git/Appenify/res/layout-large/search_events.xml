@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.calgiary.appenify.ActionBar
+        android:id="@+id/abar1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <LinearLayout
+        android:id="@+id/selection"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/abar1"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_weight="3"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/nearby"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#d94949"
+            android:gravity="center"
+            android:text="Near by"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/favs"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="Favourites"
+            android:textColor="#d94949" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="Location"
+            android:textColor="#d94949" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selection"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" >
+    </ListView>
+
+</RelativeLayout>

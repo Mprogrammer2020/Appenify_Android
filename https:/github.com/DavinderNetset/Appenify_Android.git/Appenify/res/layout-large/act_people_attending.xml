@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.calgiary.appenify.ActionBar
+        android:id="@+id/abar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout 
+        android:id="@+id/viewLook"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/abar1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        
+        <Button 
+            android:id="@+id/listViewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:onClick="layoutView" 
+            />
+        
+        <Button 
+            android:id="@+id/gridViewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:onClick="layoutView" 
+            />
+        
+    </LinearLayout>
+    <ListView
+        android:id="@+id/content_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewLook" 
+   
+         >
+
+    </ListView>
+        
+    <GridView
+        android:id="@+id/eventNearby_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewLook"  
+        android:numColumns="3"
+             
+    android:horizontalSpacing="3dp"
+   
+    android:gravity="center"
+    android:stretchMode="columnWidth"
+    
+      android:visibility="gone"
+    android:layout_margin="5dp"
+        android:columnWidth="250dp"
+           
+        android:drawSelectorOnTop="true"
+        >
+    </GridView>
+    
+    
+</RelativeLayout>

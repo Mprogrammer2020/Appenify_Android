@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+
+    <RelativeLayout 
+        android:id="@+id/aboutLay"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:background="@color/orange_button"
+        
+        >
+        
+        <RelativeLayout 
+             android:layout_width="70dp"
+        android:layout_height="fill_parent"
+         android:id="@+id/actionbar_Btn_mediaLay"
+            >
+        <ImageView 
+            android:id="@+id/actionbar_Btn_media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:padding="1dp"/>
+        
+        </RelativeLayout>
+        <TextView 
+            android:id="@+id/mediaView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_appenify"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            />
+        
+       
+          
+    </RelativeLayout>
+   
+    <ScrollView 
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_below="@+id/aboutLay"
+        >
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        
+      
+    <ImageView
+        android:id="@+id/aboutimage"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+       
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/appnify_logo" 
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="25dp"
+        />
+    
+    <RelativeLayout 
+        android:id="@+id/lay1"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="#F1F1F1"
+        android:layout_below="@+id/aboutimage"
+        >
+        
+         <TextView 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:text="@string/about_appenify"
+       android:textColor="@color/orange_button"
+       android:layout_centerVertical="true"
+       android:layout_marginLeft="10dp"
+       android:textSize="25sp"
+       
+       
+        />
+         
+     
+    </RelativeLayout>
+     
+        <TextView 
+            android:id="@+id/aaa"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:text="@string/lorem_text_demo"
+       android:textColor="@color/grayText"
+       android:layout_below="@+id/lay1"
+       android:layout_margin="10dp"
+       android:textSize="21sp"
+        />
+        
+          <RelativeLayout 
+        android:id="@+id/lay2"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="#F1F1F1"
+        android:layout_below="@+id/aaa"
+        >
+        
+         <TextView 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:text="@string/manifesto"
+       android:textColor="@color/orange_button"
+       android:layout_centerVertical="true"
+       android:layout_marginLeft="10dp"
+       android:textSize="25sp"
+       
+       
+        />
+         
+     
+    </RelativeLayout>
+     
+        <TextView 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:text="@string/lorem_text_demo"
+       android:textColor="@color/grayText"
+       android:layout_below="@+id/lay2"
+       android:layout_margin="10dp"
+       android:textSize="21sp"
+        />
+        
+        
+          
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

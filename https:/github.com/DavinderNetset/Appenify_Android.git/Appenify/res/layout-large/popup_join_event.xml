@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content" 
+    
+    android:id="@+id/mainLAyevent"
+   >
+    
+
+   
+    
+        <RelativeLayout 
+        android:id="@+id/eventTitleCheckinLay"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+       android:background="@color/orange_button"
+       android:paddingLeft="5dp"
+       android:paddingRight="5dp"
+        >
+        
+            <TextView 
+                android:id="@+id/eventTitleCheckin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:text="@string/event_nnme"
+                />
+            
+            </RelativeLayout>
+        
+       
+                <TextView 
+        android:id="@+id/texttttt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_in_if"
+            android:padding="20dp"
+       
+           android:layout_below="@+id/eventTitleCheckinLay"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+      
+        />
+                
+      
+    
+    <LinearLayout 
+        android:id="@+id/buttonLay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"  
+        android:layout_below="@+id/texttttt" 
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"  
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"   
+        android:layout_marginBottom="12dp"
+        android:background="@color/white"
+        >
+        
+        <ImageView 
+            android:id="@+id/eventDetailCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cancel"
+            android:layout_weight="1"
+            android:layout_marginRight="15dp"
+            
+            />
+        
+        
+        <ImageView 
+            android:id="@+id/eventDetailCheckin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/check_in"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            />
+        
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        android:layout_below="@+id/buttonLay"
+        />
+    
+</RelativeLayout>

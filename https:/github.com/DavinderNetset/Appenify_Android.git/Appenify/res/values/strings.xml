@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">appenify</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="agree_and_continue">Agree and Continue</string>
+	<string name="terms_and_conditions">Terms and Conditions</string>
+	<string name="private_policy">Private Policy</string>
+	<string name="profile_name">Davinder Singh</string>
+	<string name="profile_email">davinder.singh@outlook.com</string>
+	<string name="event_nearby">Events Nearby</string>
+	<string name="delete">Delete</string>
+	<string name="wedding">Wedding</string>
+	<string name="sat">SAT</string>
+	<string name="bachelorette_party">Bachelorette Party</string>
+	<string  name="all_white_outlets">All-White Outlets</string>
+	<string name="message">Message</string>
+	<string name="event_not_yet">Your selected Event Type is not yet</string>
+	<string name="miles">Miles</string>
+	<string name="kilometers">Kilometers</string>
+	<string name="distance_unit">Distance Unit</string>
+	<string name="search_distance_unit">SearchDistance Radius</string>
+	<string name="search_dista">10 Km</string>
+	<string name="hype_when">Hype when i check-in at event</string>
+	<string name="notify_new">Notify when new invitation</string>
+	<string name="notify_new_nearby">Notify new nearby events</string>
+	<string name="party_meeting_weeding">Party, Meeting, Wedding</string>
+	<string name="fav_ev_loccc">Noida, India : Banglore India</string>
+	<string name="fav_ev_loccc_head">Favorite event locations</string>
+	<string name="send_feed">Send us feedback / comments</string>
+	<string name="event_user_name">Alexandra Nite Club,London</string>
+	<string name="iwont">I won\'t be at this event</string>
+	<string name="iwillbeat">I\'ll be at this event</string>
+	<string name="not_logged_in">You are not Logged In</string>
+	<string name="login">Login</string>
+	<string name="event_attending">Events I\'m Attending</string>
+	<string name="add_desc">Add Description</string>
+	<string name="hey_whats_good">Hey, whats good! The passcode you entered dosen\'t match</string>
+	<string name="didnt_received">Didn\'t received your Passcode yet ?</string>
+	<string name="wont_be">I won\'t be at this event</string>
+	<string name="favorite_event_locations">Favorite Event Locations</string>
+	<string name="Enter_city">Enter city</string>
+	<string name="Add_to_Favorite_locations">Add to Favorite Locations</string>
+	<string name="Today">Today</string>
+	<string name="CurrentLocation">Current Location</string>
+	<string name="BestMatch">Best Match</string>
+	<string name="Favorites">Favorites</string>
+	<string name="enter_search">Enter search text</string>
+	<string name="km_miles">1Km(0.6Miles)</string>
+	<string name="connect_your">Connect your Appenify profile to your social media accounts and openup even more oppurtunities to what\'s happening around you and your social network</string>
+<string name="Delhi_india">Delhi,India</string>
+	<string name="Check_In_at">Check-In at this event and let the organizer know you\'re here</string>
+	<string name="Check_In">Check-In</string>
+	
+	
+	<string name="app_id">668572803249750</string>
+	<!-- verify phone number -->
+	<string name="verify_phone_number">Verify Phone Number</string>
+	<string name="verify_number_SMS">To verify your phone number,Appenify needs to send a one time passcode to your phone number via SMS message </string>
+	<string name="verify_please_to">Please select to your country code and enter your phone number</string>	
+	<string name="default_country_code">United State</string>	
+	<string name="country_code">+1</string>
+	<string name="ok">Ok</string>
+	<string name="photos">Photos</string>
+	<string name="video">Video</string>
+	<string name="media_gallery">Media Gallery</string>
+	<string name="tap_to_add_photos">Tap to add more photos and videos</string>
+	<string name="event_detail_title">Jane Miles &amp; Subharmanyan Kumar Wedding</string>
+	<string name="date_year">18 JUN\n2014</string>
+	<string name="hoursStr">21:00</string>
+	<string name="lorem_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolorel ut aliquip ex ea commodo conseet iusto odio dignissim qui blandit praesent lup ta tum zzril delenit augue duis dolore te feugait nulla facilisi.</string>
+	<string name="add_to_fav">Add to favorites</string>
+	<string name="check_in_if">Please Check-In if you have arrived at the Event</string>
+	<string name="event_nnme">Jill Wagner Weds Subramaniam Jafar</string>
+	
+	<string name="setings">Settings</string>
+	<string name="profile">Profile</string>
+	<string name="preferences">Preferences</string>
+	<string name="username">Alice Smith</string>
+	<string name="email">alice365@gmail.com</string>
+	<string name="address">Chandigarh, India</string>
+	<string name="phoneno">+91 9876543210</string>
+	<string name="date">31 May</string>
+	<string name="sex">Female</string>
+	<string name="titleof_your">Title of your event</string>
+	<string name="create_event">Create Event</string>
+	<string name="title_is_required">Title is required</string>
+	<string name="event_category">Event Category</string>
+	<string name="event_type">Event Type</string>
+	<string name="event_theme">Event Theme</string>
+	<string name="event_start">Event Starts</string>
+	<string name="event_start_date">SAT, 03 OCT 2014 21:45</string>
+	<string name="event_ends">Event Ends</string>
+	<string name="event_end_date">SAT, 04 OCT 2014 00:45</string>
+	<string name="event_desc">Add Description</string>
+	<string name="event_venue">Event Venue</string>
+	<string name="add_photo_videos">Add Photos and Videos</string>
+	<string name="add_photo_videos1">Add Photos &amp; Videos</string>
+	<string name="everyone_welcome">Everyone is welcome to this event</string>
+	<string name="purchased_tickets">This event require purchased tickets</string>
+	<string name="invite_guest">Invite Guest</string>
+	<string name="search">Search</string>
+	<string name="exclusive_only">Event is exclusive to invited guests only</string>
+	<string name="grand_place">The Grand Palace Arena 5th Street, New York 21200,USA</string>
+	<string name="set_time">Set Time</string>
+	<string name="everyone_is_welcome">Everyone is welcome to this event</string>
+	<string name="this_event_required">This event required purchased tickets</string>
+	
+	
+	<string name="pop_up">ViewPhoneNoPopUp</string>
+    <string name="pop_up_social">ViewSocialConnectPopUp</string>
+    <string name="confirm_no">Confirm Phone Number</string>
+    <string name="correct_no">Your Correct Phone Number is</string>
+    <string name="phone_no">+91-9646692195</string>
+    <string name="edit">Edit</string>
+    <string name="edit_event">Edit Event</string>
+    <string name="contnue">Continue</string>
+    <string name="socialConnect_popup_text1">Appenify is a whole lot more fun with \n your
+        social networks and allows you \n great stuff! \n\n Are you sure you want to \n skip this step?</string>
+    <string name="yes">Yes</string>
+    <string name="ok_let_me_connect">ok,let me Connect</string>
+    <string name="title_activity_share_with_friends">ShareWithFriendsActivity</string>
+   <string name="share_with_friends">Share with Friends</string>
+   <string name="you_are_almost_done">Your are almost done!</string>
+ <string name="share_appenify_with">Share Appenify with your friends and get the \n events started!</string>
+     <string name="skip_this_step">Skip this Step</string>
+     <string name="share_continue">Share &amp; Continue</string>
+     <string name="enter_passcode">Enter Passcode  </string>
+	<string name="enter_6digit_passcode">Enter the 6-Digit one time password sent to your phone via sms text message. </string>
+	 <string name="verify_passcode">Verify Passcode</string>
+	 <string name="resend_passcode">Resend Passcode</string>
+	 <string name="social_connect">Social Connect</string>
+	 <string name="my_social_networs">My Social Networks</string>
+	<string name="facebook">Facebook</string>
+	<string name="twitter">Twitter</string>
+	<string name="linkedin">LinkedIn</string>
+	<string name="google_plus">Google +</string>
+	<string name="ok_let_me">Ok, Let me Connect</string>
+	<string name="i_like_this_event">I like this Event</string>
+	<string name="will_this_event">I will be at this event</string>
+	<string name="fav_event_cat">Favorite Events Category</string>
+	<string name="meeting">Meeting</string>
+	<string name="my_favorites">My Favorites</string>
+	<string name="eight">8</string>
+	<string name="three">3</string>
+	<string name="twelve">12</string>
+	<string name="favs">Faves</string>
+	<string name="organized">Organized</string>
+	<string name="pending">Pending</string>
+	
+	
+	 <string name="exception">Exception: %1$s</string>
+    <string name="ok_button">OK</string>
+    <string name="need_perms_alert_text">In order to pick your friends you need to accept all the permissions on the following page.</string>
+    <string name="need_perms_alert_button_ok">OK</string>
+    <string name="need_perms_alert_button_quit">Quit</string>
+    
+	  <string name="map_title">The Grand Palace Arena</string>
+    <string name="map_location">The Grand Palace Arena
+        25th Street, New York
+        21200, USA</string>
+    <string name="car_time">1 hour 32 mins</string>
+    
+    <string name="more">More...</string>
+    <string name="map">Map</string>
+    <string name="satelite">Satellite</string>
+    <string name="earth">Earth</string>
+    <string name="distance">Distance Radius</string>
+    <string name="minimum">Minimum</string>
+    <string name="maximum">Maximum</string>
+    
+	<string name="username_comment">Jhony Smith</string>
+	<string name="comment_event_title">Jill wagner Weds Subramaniyam Jafar</string>
+	<string name="cancel">Cancel</string>
+	<string name="text_limit">300 characters remaining</string>
+	<string name="close">Close</string>
+	<string name="add_comment">Add Comment</string>
+	 <string name="no">No</string>
+	 <string name="streettt">Street</string>
+	 <string name="cityy">City</string>
+	 <string name="statee">State</string>
+	<string name="countryy">Country</string>
+	<string name="locationnn">Location</string>
+	
+      <string name="sports">Sports</string>
+       <string name="party">Party</string>
+     <string name="music_artt">Music / Art</string>
+       <string name="festival">Festival</string>
+           <string name="meet_up">Meet-up</string>
+            <string name="outdoors">Outdoors</string>
+             <string name="others">Others</string>
+             
+             
+             <string name="choose_event_type">Choose your event type</string>
+             <string name="julyparty">4 July Party</string>
+             <string name="after_party">After Party</string>
+             <string name="anniversary_party">Anniversary Party</string>
+             <string name="baby_shower">Baby Shower</string>
+             <string name="bachelor_party">Bachelor Party</string>
+             <string name="bachelorette">bachelorette_party</string>
+             <string name="barbeque">Barbeque</string>
+             <string name="birthday_party_adults">Birthday Party (Adults)</string>
+             <string name="birthday_party_kids">birthday_party (Kids)</string>
+             <string name="Block_party">Block Party</string>
+             
+   			 <string name="number"># 1234</string>
+   			 <string name="street">New York 27, 38, West side</string>
+   			 <string name="city">USA</string>
+   			 <string name="state">Palo Alto</string>
+   			 <string name="country">USA</string>
+   			
+              <string name="number_ans">No.</string>
+   			 <string name="streetnumber_ans">Street</string>
+   			 <string name="citynumber_ans">City</string>
+   			 <string name="statenumber_ans">State</string>
+   			 <string name="countrynumber_ans">Country</string>
+   			 <string name="locationnumber_ans">Location</string>
+   			 
+             <string name="lorem_text_demo">Lorem lpsum is simply dummy text of the printing and typesetting industry. Lorem lpsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a gallery of the ans scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</string>
+     <string name="about_appenify">ABOUT APPENIFY</string>
+     <string name="manifesto">MANIFESTO</string>
+       
+     <string name="choose_your_country"></string>
+
+     
+<string-array name="country_arrays" >
+
+    <item >Choose your country</item>
+<item >United States of America</item>
+<item>Canada</item>
+<item>United Kingdom</item>
+
+ <item>Afghanistan</item>
+
+<item>Albania</item>
+<item>Algeria</item>
+
+
+<item>Andorra</item>
+<item>Angola</item>
+<item>Anguilla</item>
+
+<item>Antigua and Barbuda</item>
+<item>Argentina</item>
+<item>Armenia</item>
+<item>Aruba</item>
+
+
+
+<item>Australia</item>
+<item>Austria</item>
+<item>Azerbaijan</item>
+
+
+<item>Bahamas</item>
+<item>Bahrain</item>
+<item>Bangladesh</item>
+<item>Barbados</item>
+<item>Belarus</item>
+<item>Belgium</item>
+<item>Belize</item>
+<item>Benin</item>
+<item>Bermuda</item>
+<item>Bhutan</item>
+<item>Bolivia</item>
+<item>Bosnia and Herzegovina</item>
+<item>Botswana</item>
+<item>Brazil</item>
+<item >Virgin Islands, British</item>
+<item>Brunei</item>
+<item>Bulgaria</item>
+<item>Burkina Faso</item>
+<item>Burundi</item>
+
+
+<item>Cambodia</item>
+<item>Cameroon</item>
+<item >Canada</item>
+
+<item>Cape Verde</item>
+
+<item>Central African Republic</item>
+<item>Chad</item>
+<item>Chile</item>
+<item>China</item>
+<item>Colombia</item>
+<item>Comoros</item>
+<item>Congo, Republic of The</item>
+<item>Cook Islands</item>
+<item>Costa Rica</item>
+<item>Croatia</item>
+<item>Cuba</item>
+
+<item>Cyprus</item>
+<item>Czech Republic</item>
+<item>Congo, Democratic Republic of</item>
+<item>Denmark</item>
+<item>Djibouti</item>
+<item>Dominica</item>
+<item>Dominican Republic</item>
+
+
+<item>East Timor</item>
+<item>Ecuador</item>
+<item>Egypt</item>
+<item>El Salvador</item>
+<item>Equatorial Guinea</item>
+
+<item>Estonia</item>
+<item>Ethiopia</item>
+
+
+<item>Faeroe Islands</item>
+<item>Fiji</item>
+<item>Finland</item>
+<item>France</item>
+<item>French Guiana</item>
+<item>French Polynesia</item>
+<item>Gabon</item>
+<item>Gambia</item>
+
+<item>Georgia</item>
+<item>Germany</item>
+<item>Ghana</item>
+<item>Gibraltar</item>
+<item>Greece</item>
+<item>Greenland</item>
+<item>Grenada</item>
+<item>Guadeloupe</item>
+<item>Guam</item>
+<item>Guatemala</item>
+<item>Guinea</item>
+<item>Guinea-Bissau</item>
+<item>Guyana</item>
+<item>Haiti</item>
+<item>Honduras</item>
+<item>Hong Kong</item>
+<item>Hungary</item>
+<item>Iceland</item>
+<item>India</item>
+<item>Indonesia</item>
+<item>Iran</item>
+<item>Iraq</item>
+<item>Ireland</item>
+<item>Israel</item>
+<item>Italy</item>
+<item>Ivory Coast</item>
+
+
+
+
+<item>Jamaica</item>
+<item>Japan</item>
+<item>Jersey</item>
+
+<item>Jordan</item>
+<item>Kazakhstan</item>
+<item>Kenya</item>
+<item>Kiribati</item>
+<item>Kuwait</item>
+<item>Kyrgyzstan</item>
+<item>Laos</item>
+<item>Latvia</item>
+<item>Lebanon</item>
+
+<item>Lesotho</item>
+<item>Liberia</item>
+<item>Libya</item>
+<item>Liechtenstein</item>
+<item>Lithuania</item>
+<item>Luxembourg</item>
+<item>Macau</item>
+<item>Macedonia</item>
+
+
+
+<item>Madagascar</item>
+<item>Malawi</item>
+<item>Malaysia</item>
+<item>Maldives</item>
+<item>Mali</item>
+<item>Malta</item>
+
+<item>Martinique</item>
+<item>Mauritania</item>
+<item>Mauritius</item>
+
+<item>Mexico</item>
+<item>Micronesia</item>
+<item>Moldova</item>
+<item>Monaco</item>
+<item>Mongolia</item>
+<item >Montenegro</item>
+<item>Montserrat</item>
+<item>Morocco</item>
+<item>Mozambique</item>
+
+<item>Namibia</item>
+
+<item>Nepal</item>
+<item>Netherlands</item>
+<item>Netherlands Antilles</item>
+<item>New Caledonia</item>
+<item>New Zealand</item>
+<item>Nicaragua</item>
+<item>Niger</item>
+<item>Nigeria</item>
+
+<item>North Korea</item>
+
+<item>Norway</item>
+<item>Oman</item>
+<item>Pakistan</item>
+<item>Palestine</item>
+<item>Panama</item>
+<item>Papua New Guinea</item>
+<item>Paraguay</item>
+<item>Peru</item>
+<item>Philippines</item>
+
+
+
+
+
+<item>Poland</item>
+<item>Portugal</item>
+<item>Puerto Rico</item>
+<item>Qatar</item>
+<item>Reunion Island</item>
+<item>Romania</item>
+<item>Russian Federation, The</item>
+<item>Rwanda</item>
+<item>Saint Kitts and Nevis</item>
+<item>Saint Lucia</item>
+<item>Saint Pierre and Miquelon</item>
+<item>Saint Vincent and the Grenadines</item>
+<item>Samoa</item>
+<item>San Marino</item>
+<item>Sao Tome and Principe</item>
+
+
+<item>Saudi Arabia</item>
+<item>Senegal</item>
+<item>Serbia</item>
+
+<item>Seychelles</item>
+<item>Sierra Leone</item>
+<item>Singapore</item>
+<item>Slovakia</item>
+<item>Slovenia</item>
+
+<item>Somalia</item>
+<item>South Africa</item>
+<item>South Korea</item>
+<item>South Sudan</item>
+
+<item>Spain</item>
+<item>Sri Lanka</item>
+<item>Sudan</item>
+<item>Suriname</item>
+<item>Swaziland</item>
+<item>Sweden</item>
+<item>Switzerland</item>
+<item>Syria</item>
+<item>Taiwan</item>
+<item>Tajikistan</item>
+<item>Tanzania</item>
+<item>Thailand</item>
+
+
+<item>Togo</item>
+<item>Tokelau</item>
+<item>Tonga</item>
+<item>Trinidad and Tobago</item>
+
+
+<item>Tunisia</item>
+<item>Turkey</item>
+<item>Turkmenistan</item>
+
+<item>Turks and Caicos Islands</item>
+
+<item>Uganda</item>
+<item>Ukraine</item>
+<item>United Arab Emirates</item>
+
+<item >United Kingdom</item>
+<item >United States of America</item>
+
+<item>Virgin Islands, US</item>
+
+<item>Uruguay</item>
+<item>Uzbekistan</item>
+<item>Vanuatu</item>
+
+<item>Venezuela</item>
+<item>Vietnam</item>
+
+
+<item>Yemen</item>
+
+<item>Zambia</item>
+<item>Zimbabwe</item>
+
+</string-array>
+
+	
+
+	
+	
+
+<string-array name="CountryCodes" >
+  <item > </item>
+<item>1,US</item>
+<item>1,CA</item>
+<item>44,GB</item>
+
+<item>93,AF</item>
+
+<item>355,AL</item>
+<item>213,DZ</item>
+
+<item>376,AD</item>
+<item>244,AO</item>
+<item>1264,AN</item>
+
+<item>1268,AAB</item>
+<item>54,AR</item>
+<item>374,AM</item>
+<item>297,AW</item>
+
+<item>61,AU</item>
+
+<item>43,AT</item>
+<item>994,AZ</item>
+<item>1242,BHM</item>
+
+<item>973,BH</item>
+<item>880,BD</item>
+<item>1,BAR</item>
+<item>375,BY</item>
+<item>32,BE</item>
+<item>501,BZ</item>
+<item>229,BJ</item>
+<item>1,BM</item>
+<item>975,BT</item>
+<item>591,BO</item>
+<item>387,BA</item>
+<item>267,BW</item>
+<item>55,BR</item>
+<item >1284</item>
+<item>673,BN</item>
+<item>359,BG</item>
+<item>226,BF</item>
+<item >1</item>
+<item>855,KH</item>
+<item>237,CM</item>
+<item >1</item>
+<item>238,CV</item>
+
+<item>236,CF</item>
+<item>235,TD</item>
+<item>56,CL</item>
+<item>86,CN</item>
+<item>57,CO</item>
+<item>269,KM</item>
+<item>242,CG</item>
+<item>682,CK</item>
+<item>506,CR</item>
+<item>385,HR</item>
+<item>53,CU</item>
+
+<item>357,CY</item>
+<item>420,CZ</item>
+<item>243,DRC</item>
+<item>45,DK</item>
+<item>253,DJ</item>
+<item>1,DM</item>
+<item>1809,DM</item>
+<item>670,TL</item>
+<item>593,EC</item>
+<item>20,EG</item>
+<item>503,SV</item>
+<item>240,GQ</item>
+
+<item>372,EE</item>
+<item>251,ET</item>
+
+
+<item>298,FO</item>
+<item>679,FJ</item>
+<item>358,FN</item>
+<item>33,FR</item>
+<item >594,FG</item>
+<item>689,PF</item>
+<item>241,GA</item>
+<item>220,GA</item>
+
+
+<item>995,GE</item>
+<item>49,GM</item>
+<item>233,GH</item>
+<item>350,GI</item>
+<item>30,GR</item>
+<item>299,GL</item>
+<item>1,GR</item>
+<item>590,GD</item>
+<item>1,GU</item>
+<item>502,GT</item>
+<item>224,GN</item>
+<item>245,GW</item>
+<item>592,GY</item>
+<item>509,HT</item>
+<item>504,HN</item>
+<item>852,HK</item>
+<item>36,HU</item>
+<item>354,IC</item>
+<item>91,IN</item>
+
+
+
+
+<item>62,ID</item>
+<item>98,IR</item>
+<item>964,IQ</item>
+<item>353,IE</item>
+<item>972,IL</item>
+<item>39,IT</item>
+<item>225,IC</item>
+
+<item>1876,JM</item>
+<item>81,JP</item>
+<item>44,JR</item>
+
+<item>962,JO</item>
+<item>7,KZ</item>
+
+
+
+
+
+
+<item>254,KE</item>
+<item>686,KI</item>
+<item>965,KW</item>
+<item>996,KG</item>
+
+<item>856,LA</item>
+<item>371,LV</item>
+<item>961,LB</item>
+<item>266,LS</item>
+<item>231,LR</item>
+<item>218,LY</item>
+<item>423,LI</item>
+<item>370,LT</item>
+<item>352,LU</item>
+<item>853,MC</item>
+<item>853,MI </item>
+
+
+<item>261,MDG</item>
+<item>265,ML</item>
+<item>60,MY</item>
+<item>960,MV</item>
+<item>223,ML</item>
+<item>356,MT</item>
+
+<item>596,MTQ</item>
+<item>222,MR</item>
+<item>230,MU</item>
+
+<item>52,MX</item>
+<item>691,FM</item>
+<item>373,MD</item>
+<item>377,MC</item>
+<item>976,MN</item>
+<item>382,ME</item>
+<item >1664</item>
+<item>212,MA</item>
+<item>258,MZ</item>
+
+<item>264,NA</item>
+
+<item>977,NP</item>
+<item>31,NL</item>
+<item>599,AN</item>
+<item>687,NC</item>
+<item>64,NZ</item>
+<item>505,NI</item>
+<item>227,NE</item>
+<item>234,NG</item>
+
+
+<item>850,KP</item>
+
+<item>47,NO</item>
+<item>968,OM</item>
+<item>92,PK</item>
+<item>970,PW</item>
+<item>507,PNM</item>
+<item>675,PG</item>
+<item>595,PY</item>
+<item>51,PE</item>
+<item>63,PH</item>
+<item>48,PL</item>
+<item>351,PT</item>
+<item>1,PR</item>
+<item>974,QA</item>
+<item>262,REU</item>
+<item>40,RO</item>
+<item>7,RU</item>
+<item>250,RW</item>
+<item>1869,SKN</item>
+<item>1758,SL</item>
+<item>508,SL</item>
+<item>1784,SL</item>
+<item>685,SMO</item>
+<item>378,SM</item>
+<item>239,STP</item>
+<item>966,SA</item>
+<item>221,SN</item>
+<item>381,SE</item>
+
+<item>248,SC</item>
+<item>232,SL</item>
+<item>65,SG</item>
+<item>421,SK</item>
+<item>386,SI</item>
+
+<item>252,SO</item>
+<item>27,ZA</item>
+<item>82,KR</item>
+<item>211,SS</item>
+<item>34,ES</item>
+<item>94,LK</item>
+<item>597,SR</item>
+<item>249,SD</item>
+<item>268,SZ</item>
+<item>46,SE</item>
+<item>41,CH</item>
+<item>963,SY</item>
+<item>886,TW</item>
+<item>992,TJ</item>
+<item>255,TZ</item>
+<item>66,TH</item>
+<item>228,TG</item>
+
+
+
+
+<item>690,TK</item>
+<item>676,TO</item>
+<item>1868,TO</item>
+<item>216,TN</item>
+<item>90,TR</item>
+<item>993,TM</item>
+<item>1649,TCI</item>
+
+
+
+<item >256,UG</item>
+<item >380,UC</item>
+<item>971,AE</item>
+<item >44</item>
+<item >1</item>
+<item>1340,VI</item>
+ 
+<item>598,UY</item>
+<item>998,UZ</item>
+<item>678,VU</item>
+
+<item>58,VE</item>
+<item>84,VN</item>
+
+
+<item>967,YE</item>
+
+<item>260,ZM</item>
+<item>263,ZW</item>
+</string-array>
+  
+<string-array name="party_event_type">
+    <item >4th july Party</item>
+    <item >After Party</item>
+    <item >Anniversary Party</item>
+    <item >Baby Shower</item>
+    <item >Bachelor Party</item>
+    <item >Barbeque</item>
+    
+    <item >Birthday Party(Adults)</item>
+    <item >Birthday Party(Kids)</item>
+    <item >Block Party</item>
+    <item >Bridal Shower</item>
+    <item >Christmas Party</item>
+    <item >Club Party</item>
+    
+    <item >Cocktail Party</item>
+    <item >Dance Party</item>
+    <item >Dinner Party</item>
+    <item >Divorce Party</item>
+    <item >Engagement Party</item>
+    <item >Erotic Party</item>
+    
+    <item >Farewell Party</item>
+    <item >Fraternity Party</item>
+    <item >Graduation Party</item>
+    <item >Grand Opening Party</item>
+    <item >Halloween Party</item>
+    <item >Homecoming Party</item>
+    
+    <item >House Party</item>
+    <item >Housewarming Party</item>
+    <item >Leaving Party</item>
+    <item >Office Party</item>
+    <item >New Years Eve Party</item>
+    <item >Patriotic Party</item>
+    
+    <item >Pizza Party</item>
+    <item >Pool Party</item>
+    <item >Prom Night Party</item>
+    <item >Remembrance Day Party</item>
+    <item >Reunion Party</item>
+    <item >Slumber Party</item>
+    
+    <item >Sorority Party</item>
+    <item >St Patricks Day Party</item>
+    <item >Summer Party</item>
+    <item >Surprise Party</item>
+    <item >Sweet 16th Party</item>
+    <item >Tea Party</item>
+    
+    <item >Thanksgiving Party</item>
+    <item >Wedding Party</item>
+    <item >Welcome Party</item>
+    <item >Other</item>
+    <item >None</item>
+    
+</string-array>
+
+
+<string-array name="party_event_theme">
+    
+     <item >1920s</item>
+    <item >1950s</item>
+    <item >1960s</item>
+    <item >1970s</item>
+    <item >1980s</item>
+    <item >Africian Clothes &amp; Styles</item>
+    
+    
+     <item >Ancient Greece</item>
+    <item >Anything But Clothes(ABC)</item>
+    <item >Army &amp; Navy</item>
+    <item >Arabian Clothes &amp; Styles</item>
+    <item >Asian Clothes &amp; Styles</item>
+    <item >Best Church(Sunday) Clothes</item>
+    
+    
+     <item >Bikers &amp; Babes</item>
+    <item >Blue Moon</item>
+    <item >Blues Brother</item>
+    <item >Bring Drinks Along(BDA)</item>
+    <item >Bring Your Own Beer(BOYB)</item>
+    <item >Bunnies &amp; Playboys</item>
+    
+    <item >Cartoon Character</item>
+    <item >Casino</item>
+    <item >Cowboys &amp; Indians</item>
+    <item >Crazy Hair Doo</item>
+    <item >Disco</item>
+    <item >Doctors &amp; Nurses</item>
+    
+    
+     <item >Dungeons and Drag Queens</item>
+    <item >Egyptian Styles</item>
+    <item >Famous People</item>
+    <item >Formal Clothes</item>
+    <item >Full Moon</item>
+    <item >Funny Chracters</item>
+    
+    
+     <item >Goth &amp; Punk Style</item>
+    <item >Hippies &amp; Hipsters</item>
+    <item >Hollywood Celebrities</item>
+    <item >Ice Cream Social</item>
+    <item >Knights &amp; Damsels</item>
+    <item >Mafia</item>
+    
+    
+     <item >Margaritaville</item>
+    <item >Masquerade Mardi Gras</item>
+    <item >Medieval(Stone Age)</item>
+    <item >Monster</item>
+    <item >Mr &amp; Mrs Claus</item>
+    <item >Moustache</item>
+    
+    
+     <item >Naughty &amp; Nice</item>
+    <item >Nerd</item>
+    <item >Ninja</item>
+    <item >Pirates</item>
+    <item >Polka Dot</item>
+    <item >Policeman &amp; Fireman</item>
+    
+      <item >Prince(Blue)</item>
+    <item >Princess(Pink)</item>
+    <item >Pyjamas</item>
+    <item >Retro &amp; Vintage Theme</item>
+    <item >Rockstar &amp; Groupies</item>
+      <item >Same Color Outfits</item>
+    <item >School Teachers</item>
+    <item >Secret Agent &amp; spy</item>
+    <item >Sleepover</item>
+    <item >Sports Theme</item>
+      <item >Star Trek</item>
+    <item >Star Wars</item>
+    <item >Strictly Adult</item>
+    <item >Snuggies &amp; Huggies</item>
+    <item >Superheroes</item>
+      <item >Tequila Mockingbird</item>
+    <item >Ugly Christmas Sweater</item>
+    <item >Water Park Style</item>
+    <item >Wear What You Feel(WWYF)</item>
+    <item >Zombies</item>
+      <item >Other</item>
+    <item >None</item>
+   
+    
+</string-array>
+
+
+<string-array name="meeting_event_type">
+    
+     <item >Business Meeting</item>
+    <item >Club Meeting</item>
+    <item >Convention</item>
+     <item >Conference</item>
+    <item >Other</item>
+    <item >None</item>
+    
+</string-array>
+
+<string-array name="meeting_event_theme">
+    
+      <item >A Celebration of Success</item>
+    <item >Ain\'t No Stoppin\' Us Now</item>
+     <item >Be Extraordinary</item>
+    <item >Better &amp; Consistent</item>
+    <item >Building for the Future</item>
+     <item >Casual</item>
+    <item >Explore all Possibilities</item>
+    <item >Facing the Challenges</item>
+    
+      <item >Formal Dressing</item>
+    <item >Get the Edge</item>
+     <item >Higher</item>
+    <item >Faster</item>
+    <item >Stronger</item>
+     <item >Igniting Team Spirit</item>
+    <item >In It to Win It</item>
+    <item >Innovate, Integrate, Motivate</item>
+    
+      <item >Keep Khakis Away</item>
+    <item >Making a Difference</item>
+     <item >Tee-shirt &amp; Jeans</item>
+    <item >Other</item>
+    <item >None</item>
+    
+</string-array>
+
+<string-array name="wedding_event_type">
+    
+     <item >Engagement Party</item>
+    <item >Bridal Shower</item>
+    <item >"Bridalwear Shopping</item>
+     <item >Bachelor Party</item>
+    <item >Bachelorette Party</item>
+    <item >Rehearsal Dinner</item>
+    
+     <item >Wedding Reception</item>
+    <item >Wedding Fair</item>
+    <item >Wedding Ceremony</item>
+     <item >Pre-Wedding Photoshoot</item>
+   
+</string-array>
+
+
+
+<string-array name="wedding_event_theme">
+    
+    <item >African Safari Theme</item>
+    <item >African Wedding Style &amp; Theme</item>
+    <item >All-white Outfits</item>
+    <item >Asian Style &amp; Theme</item>
+    <item >Bohemian Theme</item>
+    <item >British Pub Theme</item>
+    <item >Caribbean Flair</item>
+    <item >Chinese Wedding Style &amp; Theme</item>
+    <item >Cinderella Theme</item>
+    
+     <item >Costal White</item>
+    <item >Country Club Style &amp; Theme</item>
+    <item >English Country Garden</item>
+    <item >Fairytale</item>
+    <item >Goth &amp; Punk Style</item>
+    <item >Indian Wedding Style &amp; Theme</item>
+    <item >Las Vages Style &amp; Theme</item>
+    <item >Latin American Wedding Style &amp; Theme</item>
+    <item >Moroccan White</item>
+    
+     <item >Multi-cultural Style &amp; Theme</item>
+    <item >Navy &amp; Military Theme</item>
+    <item >Nigerian Wedding Style &amp; Theme</item>
+    <item >Pink &amp; White Color Theme</item>
+    <item >Poolside Theme</item>
+    <item >Scandinavian Wedding Style &amp; Theme Seaside (Beach)</item>
+    <item >Springtime Soiree</item>
+    <item >The Big Apple (New York) Flair</item>
+    <item >Traditional American Style &amp; Theme</item>
+    
+     <item >Traditional French Style &amp; Theme</item>
+    <item >Traditional Italian Style &amp; Theme</item>
+    <item >Traditional Spanish Style &amp; Theme</item>
+    <item >Vintage &amp; Traditional Style &amp; Theme</item>
+    <item >Winter Wonderland</item>
+    <item >Other</item>
+    <item >None</item>
+    
+</string-array>
+       <string name="str_orange">#fe7b27</string>
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.calgiary.appenify.ActionBar
+        android:id="@+id/abar1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <LinearLayout 
+        android:id="@+id/viewLook"
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/abar1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"
+        >
+        
+        <Button 
+            android:id="@+id/listViewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:onClick="layoutView" 
+            />
+        
+        <Button 
+            android:id="@+id/gridViewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:onClick="layoutView" 
+            />
+        
+    </LinearLayout>
+    <ListView
+        android:id="@+id/content_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abar1" 
+  
+         >
+
+    </ListView>
+        
+    <GridView
+        android:id="@+id/eventNearby_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewLook"  
+        android:numColumns="3"
+             
+    android:horizontalSpacing="4dp"
+    android:verticalSpacing="6dp"
+    android:gravity="center"
+    android:stretchMode="columnWidth"
+    
+    
+    android:layout_margin="5dp"
+        android:columnWidth="190dp"
+              android:visibility="gone"
+        android:drawSelectorOnTop="true"
+        >
+    </GridView>
+    
+    <LinearLayout 
+        android:id="@+id/eventNearTabLay"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/orange_button"
+        android:layout_alignParentBottom="true"
+           android:orientation="horizontal"
+        >
+        
+      
+        
+        <LinearLayout 
+          android:id="@+id/createEventTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+         android:layout_weight="1"
+          android:orientation="horizontal"
+          android:onClick="tabCallFunc1"
+            >
+            
+            <ImageView 
+                android:id="@+id/create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/edit_3x"
+                   android:padding="5dp"
+                />
+            
+        </LinearLayout>
+        
+        
+           <LinearLayout 
+               android:id="@+id/homeEventTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+         android:layout_weight="1"
+          android:orientation="horizontal"
+          android:onClick="tabCallFunc1"
+            >
+             <ImageView 
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home_3x"
+                   android:padding="5dp"
+                />
+            
+        </LinearLayout>
+          
+        
+              <LinearLayout 
+                  android:id="@+id/favoriteEventTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+         android:layout_weight="1"
+          android:orientation="horizontal"
+          android:onClick="tabCallFunc1"
+            >
+            
+             <ImageView 
+                android:id="@+id/favot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/favorite"
+                android:padding="5dp"
+                />
+        </LinearLayout>
+        
+              
+              <LinearLayout 
+                  android:id="@+id/notificationEventTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+         android:layout_weight="1"
+          android:orientation="horizontal"
+          android:onClick="tabCallFunc1"
+            >
+            
+             <ImageView 
+                android:id="@+id/notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/notification_3x"
+                android:padding="5dp"
+                />
+        </LinearLayout>
+        
+        </LinearLayout>
+    
+</RelativeLayout>

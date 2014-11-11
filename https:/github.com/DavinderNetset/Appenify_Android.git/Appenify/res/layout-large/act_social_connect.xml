@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+          <RelativeLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            >
+            
+              
+    <RelativeLayout 
+    android:id="@+id/topLayoutt_social"
+    android:layout_width="fill_parent"
+	android:layout_height="70dp"
+	android:background="#D94949"
+    >
+    
+    <TextView 
+        android:id="@+id/verifyNumberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/social_connect"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_marginTop="5dp"
+        />
+    
+     <ImageView 
+        android:id="@+id/current_view_hint_center"
+        android:layout_width="55dp"
+        android:layout_height="9dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/verifyNumberText"
+        android:layout_marginTop="8dp"
+      android:layout_marginLeft="2dp"
+        android:background="@drawable/top_hover"
+        />
+    
+       <ImageView 
+        android:id="@+id/current_view_hint_left"
+        android:layout_width="55dp"
+        android:layout_height="9dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/verifyNumberText"
+        android:layout_marginTop="8dp"
+         android:layout_marginRight="3dp"
+        android:layout_toLeftOf="@+id/current_view_hint_center"
+        android:background="@drawable/top_hover"
+        />
+       
+         <ImageView 
+        android:id="@+id/current_view_hint_right"
+        android:layout_width="55dp"
+        android:layout_height="9dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/verifyNumberText"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/current_view_hint_center"
+        android:background="@drawable/top_hover"
+        />
+</RelativeLayout>
+
+    
+    <TextView 
+        android:id="@+id/social_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_below="@+id/topLayoutt_social"
+        android:text="@string/connect_your"
+     android:layout_marginTop="45dp"
+     android:layout_marginBottom="45dp"
+     android:textSize="25sp"
+     
+        />
+    
+    
+    <LinearLayout 
+        android:id="@+id/socialBtn_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_below="@+id/social_detail"
+      
+        >
+        
+        <Button 
+            android:id="@+id/fb_connect_Btn"
+            android:layout_width="fill_parent"
+            android:layout_height="62dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="socialConnect"
+            />
+        
+         <Button 
+            android:id="@+id/twitter_connect_Btn"
+            android:layout_width="fill_parent"
+            android:layout_height="62dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="socialConnect"
+            />
+         
+         
+          <Button 
+            android:id="@+id/linkedin_connect_Btn"
+            android:layout_width="fill_parent"
+            android:layout_height="62dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="socialConnect"
+            />
+          
+          
+           <Button 
+            android:id="@+id/googlePlus_connect_Btn"
+            android:layout_width="fill_parent"
+            android:layout_height="62dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="socialConnect"
+            />
+           
+         
+    </LinearLayout>
+    
+    
+    <Button 
+        android:id="@+id/skipBtn_social"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+       android:text="@string/skip_this_step"
+        android:background="@color/orange_button"
+        android:layout_below="@+id/socialBtn_layout"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:onClick="socialConnect"
+        />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/skipBtn_social"
+        android:visibility="invisible"
+        />
+  </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

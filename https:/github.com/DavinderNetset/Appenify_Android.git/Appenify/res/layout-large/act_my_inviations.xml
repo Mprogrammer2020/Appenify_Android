@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.calgiary.appenify.ActionBar
+        android:id="@+id/abar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+       <LinearLayout 
+        android:id="@+id/pendingdecLay"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:background="@drawable/border_orange"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/abar1"
+        >
+        
+        <Button 
+            android:id="@+id/pendingButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/pending"
+            android:gravity="center"
+            android:background="@color/orange_button"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:onClick="invitationLayout"
+            />
+        
+        <Button 
+            android:id="@+id/declinedButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/decline"
+            android:gravity="center"
+         android:layout_weight="1"
+         android:textSize="25sp"
+         android:background="@color/white"
+         android:onClick="invitationLayout"
+            />
+        
+    </LinearLayout> 
+    
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/eventNearTabLay"
+        android:layout_below="@+id/pendingdecLay"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" >
+
+    </ListView>
+
+    
+    <LinearLayout 
+        android:id="@+id/eventNearTabLay"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:background="@color/orange_button"
+        android:layout_alignParentBottom="true"
+           android:orientation="horizontal"
+        >
+        
+         <LinearLayout 
+          android:id="@+id/createEventTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+         android:layout_weight="1"
+          android:orientation="horizontal"
+          android:onClick="tabCallFunc"
+            >
+            
+            <ImageView 
+                android:id="@+id/create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/edit_3x"
+                   android:padding="5dp"
+                />
+            
+        </LinearLayout>
+        
+         
+         <LinearLayout 
+               android:id="@+id/homeEventTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+         android:layout_weight="1"
+          android:orientation="horizontal"
+          android:onClick="tabCallFunc"
+            >
+             <ImageView 
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home_3x"
+                   android:padding="5dp"
+                />
+            
+        </LinearLayout>
+        
+       
+        
+          
+        
+              <LinearLayout 
+                  android:id="@+id/favoriteEventTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+         android:layout_weight="1"
+          android:orientation="horizontal"
+          android:onClick="tabCallFunc"
+            >
+            
+             <ImageView 
+                android:id="@+id/favot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/favorite"
+                android:padding="5dp"
+                />
+        </LinearLayout>
+        
+              
+              <LinearLayout 
+                  android:id="@+id/notificationEventTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+         android:layout_weight="1"
+          android:orientation="horizontal"
+          android:onClick="tabCallFunc"
+            >
+            
+             <ImageView 
+                android:id="@+id/notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/notification_3x"
+                android:padding="5dp"
+                />
+        </LinearLayout>
+        
+        </LinearLayout>
+        
+</RelativeLayout>

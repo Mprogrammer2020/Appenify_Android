@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@android:color/transparent"
+    
+
+     >
+    <!-- android:background="@drawable/social_layout" -->
+     <RelativeLayout
+         android:id="@+id/pop_invite_lay11"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         
+         android:background="@android:color/white"
+         android:gravity="center"
+         android:paddingBottom="20dp"
+         android:paddingTop="20dp" >
+    
+  <LinearLayout 
+        android:id="@+id/my_social_connect_Lay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    android:layout_marginRight="20dp"
+        >
+        <LinearLayout 
+            android:id="@+id/my_connet_fb_Lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+       android:gravity="center_horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+        <ImageView 
+            android:id="@+id/my_connet_fb_Btn"
+                android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/fb_round"
+           
+            />
+        </LinearLayout>
+        
+         <LinearLayout 
+            android:id="@+id/my_connet_twitter_Lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           android:layout_weight="1"
+             android:gravity="center_horizontal"
+               android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+        
+        <ImageView 
+            android:id="@+id/my_connet_twitter_Btn"
+               android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/tw_round"
+            />
+        </LinearLayout>
+        
+         
+           <LinearLayout 
+            android:id="@+id/my_connet_linked_Lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+           android:gravity="center_horizontal"
+               android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+        <ImageView 
+            android:id="@+id/my_connet_linked_Btn"
+              android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/linkd_roumd"
+          
+          
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+     <LinearLayout 
+        android:id="@+id/my_social_connect_Lay1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    android:layout_marginRight="20dp"
+    android:layout_below="@+id/my_social_connect_Lay"
+        >
+           
+           <LinearLayout 
+            android:id="@+id/my_connet_google_plus_Lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+       android:gravity="center_horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+        <ImageView 
+            android:id="@+id/my_connet_google_plus_Btn"
+               android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/gplus_roynd"
+           
+            />
+        </LinearLayout>
+        
+         <LinearLayout 
+            android:id="@+id/my_connet_profile_Lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           android:layout_weight="1"
+             android:gravity="center_horizontal"
+               android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+        
+        <ImageView 
+            android:id="@+id/my_connet_profile_Btn"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+           
+            android:background="@drawable/profile_round"
+            />
+        </LinearLayout>
+        
+            <LinearLayout 
+            android:id="@+id/my_connet_profile_Lay3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           android:layout_weight="1"
+             android:gravity="center_horizontal"
+               android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            >
+        
+                </LinearLayout>
+         </LinearLayout>
+         <TextView 
+             android:id="@+id/bottomTextView"
+             android:layout_width="wrap_content"
+             android:layout_height="1dp"
+             android:visibility="invisible"
+             android:layout_below="@+id/my_social_connect_Lay1"
+             /> 
+             
+         </RelativeLayout>
+</RelativeLayout>

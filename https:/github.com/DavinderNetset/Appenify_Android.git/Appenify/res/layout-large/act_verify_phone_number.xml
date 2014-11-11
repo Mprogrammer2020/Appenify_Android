@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainverifyLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/topLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="#D94949" >
+
+        <TextView
+            android:id="@+id/verifyNumberText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/verify_phone_number"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/current_view_hint_center"
+            android:layout_width="60dp"
+            android:layout_height="16dp"
+            android:layout_below="@+id/verifyNumberText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/top_unslct" />
+
+        <ImageView
+            android:id="@+id/current_view_hint_left"
+            android:layout_width="55dp"
+            android:layout_height="9dp"
+            android:layout_below="@+id/verifyNumberText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@+id/current_view_hint_center"
+            android:background="@drawable/top_hover" />
+
+        <ImageView
+            android:id="@+id/current_view_hint_right"
+            android:layout_width="60dp"
+            android:layout_height="16dp"
+            android:layout_below="@+id/verifyNumberText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/current_view_hint_center"
+            android:background="@drawable/top_unslct" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/toverifyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topLayout"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="65dp"
+        android:textSize="25sp"
+        android:text="@string/verify_number_SMS" />
+
+    <TextView
+        android:id="@+id/pleasecodeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toverifyTextView"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp"
+        android:text="@string/verify_please_to" />
+
+    <TextView
+        android:id="@+id/testCountryCode"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/pleasecodeTextView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/menu_arrow"
+        android:drawSelectorOnTop="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:prompt="@string/default_country_code"
+        android:textSize="17sp" 
+        android:visibility="invisible"/>
+
+    <Spinner
+        android:id="@+id/spinnerCountryCode"
+        android:layout_width="fill_parent"
+        android:layout_height="62dp"
+        android:layout_below="@+id/pleasecodeTextView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+       
+         android:background="@drawable/menu_arrow"
+        android:drawSelectorOnTop="true"
+        android:descendantFocusability="beforeDescendants"
+        android:paddingLeft="8dp"
+        android:paddingRight="5dp"
+        android:paddingTop="1dp"
+        android:prompt="@string/choose_your_country"
+        android:spinnerMode="dropdown" />
+
+     <!-- android:entries="@array/country_arrays" -->
+     
+    <RelativeLayout
+        android:id="@+id/codeRelLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerCountryCode"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp" >
+
+        <TextView
+            android:id="@+id/countryCodeTextView"
+            android:layout_width="86dp"
+            android:layout_height="62dp"
+            android:background="@drawable/border_corner_scale_orange"
+            android:gravity="center"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/numberEditField"
+            android:layout_width="fill_parent"
+            android:layout_height="62dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toLeftOf="@+id/okTextView"
+            android:layout_toRightOf="@+id/countryCodeTextView"
+            android:background="@drawable/border_corner_scale_orange"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:maxLength="12"
+            android:paddingLeft="8dp"
+            android:hint="Hello test 7 inch"
+            android:paddingRight="8dp"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/okTextView"
+            android:layout_width="86dp"
+            android:layout_height="62dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/ok_button" />
+    </RelativeLayout>
+
+</RelativeLayout>

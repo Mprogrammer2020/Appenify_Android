@@ -1,0 +1,434 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" 
+   >
+
+    
+     <RelativeLayout 
+        android:id="@+id/createEventLay"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:background="@color/orange_button"
+        
+        >
+        
+         <RelativeLayout 
+               android:id="@+id/cancel_Btn_media_Lay"
+        android:layout_width="80dp"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+          android:onClick="eventLayoutFunction"
+           
+             >
+        <ImageView 
+            android:id="@+id/cancel_Btn_media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cross_icon"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+           
+          />
+        </RelativeLayout>
+        
+        <TextView 
+            android:id="@+id/createEventView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_event"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            />
+        
+         <RelativeLayout 
+               android:id="@+id/done_event_Lay"
+        android:layout_width="80dp"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+          android:layout_centerVertical="true"
+             android:layout_alignParentRight="true"
+           android:onClick="eventLayoutFunction"
+            
+             >
+        
+          <ImageView 
+            android:id="@+id/done_Btn_media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tick_icon"
+           android:paddingTop="15dp"
+           android:paddingBottom="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="12dp"
+            android:layout_alignParentRight="true"
+          
+            />
+          
+          </RelativeLayout>
+          
+    </RelativeLayout>
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" 
+        android:layout_gravity="top">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+       android:id="@+id/inviteGuestt"
+    android:onClick="eventLayoutFunction" >
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:visibility="invisible"
+    ></RelativeLayout>
+
+        <EditText
+            android:id="@+id/titleEventEdit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingLeft="60dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/evnt_bg"
+            android:ems="10" 
+            android:textSize="21sp"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            
+         >
+        <requestFocus />
+        </EditText>
+
+        <RelativeLayout
+            android:id="@+id/eventCategoryLay"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+             android:layout_marginBottom="30dp"
+            android:background="@drawable/category_bg"
+            android:paddingLeft="60dp"
+                android:spinnerMode="dropdown" 
+                android:onClick="eventLayoutFunction"
+             >
+                
+            <TextView
+                android:id="@+id/eventCatText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginRight="25dp"
+               android:textSize="21sp"
+                android:text="@string/event_category"
+                />
+
+            </RelativeLayout>
+
+        <Spinner
+            android:id="@+id/eventTypeLay"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+             android:layout_marginBottom="30dp"
+            android:background="@drawable/event_type_bg"
+            android:paddingLeft="60dp" 
+                 android:spinnerMode="dropdown"
+               
+                 />
+
+        <!-- android:spinnerStyle="@android:style/Widget.Spinner.DropDown" -->
+        
+        <Spinner
+            android:id="@+id/eventThemeLay"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+             android:layout_marginBottom="30dp"
+            android:background="@drawable/event_theme_bg"
+            android:paddingLeft="60dp"
+                android:spinnerMode="dropdown"
+           
+                 >
+            </Spinner>
+   
+
+    <LinearLayout
+        android:id="@+id/startEventLay"
+        android:layout_width="match_parent"
+         android:layout_marginBottom="20dp"
+         android:layout_marginLeft="18dp"
+        android:layout_height="60dp"
+        android:onClick="eventLayoutFunction" 
+         >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+           android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_start"
+                android:textSize="21sp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/startEventText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_start_date"
+                android:textSize="21sp"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/clndr"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/endEventLay"
+        android:layout_width="match_parent"
+         android:layout_marginBottom="20dp"
+         android:layout_marginLeft="18dp"
+        android:layout_height="60dp" 
+	
+        android:onClick="eventLayoutFunction"
+         >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_ends"
+                android:textSize="21sp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/endEventText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_end_date"
+                android:textSize="21sp"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/clndr"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/addDescText"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:hint="@string/add_desc"
+        android:gravity="top"
+        android:padding="8dp"
+        android:background="@drawable/border_gray"
+   
+          />
+
+    <RelativeLayout
+       
+        android:layout_width="match_parent"
+       android:background="@drawable/border_gray"
+       android:layout_marginTop="20dp"
+       android:layout_marginBottom="20dp"
+        android:layout_height="60dp" 
+       android:orientation="horizontal"
+         >
+        
+        <LinearLayout
+            android:id="@+id/eventVenueLay"
+            android:layout_width="246dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+           android:layout_centerVertical="true"
+            android:onClick="eventLayoutFunction" >
+
+        <TextView
+            android:id="@+id/eventVenueText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+           android:paddingLeft="15dp"
+            android:layout_gravity="center_vertical"
+            android:text="@string/event_venue"
+            android:textSize="21sp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+</LinearLayout>
+        <ImageView
+            android:id="@+id/locationImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="15dp"
+            android:src="@drawable/location" 
+             android:onClick="eventLayoutFunction"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:background="#F6F6F6"
+      
+        android:layout_height="190dp" >
+<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/getMediaFiles"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+          android:gravity="center"
+            android:orientation="vertical"
+            android:onClick="eventLayoutFunction" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/add_icon" />
+
+           
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_photo_videos1"
+                android:textSize="25sp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <HorizontalScrollView 
+            android:id="@+id/mediaHorzontalView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+            android:id="@+id/mygallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            />
+        </HorizontalScrollView>
+        
+       
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textSize="21sp"
+        android:paddingLeft="5dp"
+        android:text="@string/everyone_is_welcome" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textSize="21sp"
+        android:paddingLeft="5dp"
+        android:text="@string/this_event_required" />
+
+    <RelativeLayout
+        android:id="@+id/inviteGuestLay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" 
+        android:paddingLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/invite_guesr_nav"
+            android:spinnerMode="dropdown"
+            android:onClick="eventLayoutFunction"
+            >
+      <TextView
+                android:id="@+id/inviteGuestText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="25dp"
+                android:textSize="21sp"
+                android:paddingLeft="5dp"
+                android:text="@string/invite_guest"
+               
+                />
+      
+        </RelativeLayout>
+        
+    <TextView 
+        android:id="@+id/bottomTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="150dp"
+        android:visibility="invisible"
+        />
+ </LinearLayout>
+ 
+       
+    </ScrollView>
+</LinearLayout>

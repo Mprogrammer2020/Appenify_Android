@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_message_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@null" >
+
+ <!--    <RelativeLayout
+        android:id="@+id/userImage_commenLayy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@null" > -->
+
+        <RelativeLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_centerInParent="true"
+            android:id="@+id/popUpFramee"
+            >
+            
+        <RelativeLayout
+            android:id="@+id/userImage_commenL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+             >
+
+            <RelativeLayout
+                android:id="@+id/userImage_commenLay1t"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp" 
+             
+                >
+
+                <ImageView
+                    android:id="@+id/userImage_comment"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                        android:layout_marginLeft="13dp"
+                    android:background="@drawable/profile_pic" />
+
+                <TextView
+                    android:id="@+id/userName_comment_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/userImage_comment"
+                    android:text="@string/username_comment"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    />
+
+                <TextView
+                    android:id="@+id/date_comment_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/userName_comment_text"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_toRightOf="@+id/userImage_comment"
+                    android:text="@string/event_start_date"
+                    android:textColor="@color/grayText" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/comment_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userImage_commenLay1t"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingLeft="15dp"
+                android:text="Lorem lpsum is simply dummy text of the printing and typesetting industry. Lorem lpsum has been the industry&apos;s standard dummy text ever since the 1500"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/comment_message1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/comment_message"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="10dp"
+                android:text="Lorem lpsum is simply dummy text of the printing and typesetting industry. Lorem lpsum has been the industry&apos;s standard dummy text ever since the 1500"
+                android:textColor="@color/black"
+                android:paddingBottom="5dp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/cancelImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/cross" />
+
+        </RelativeLayout>
+
+
+</RelativeLayout>

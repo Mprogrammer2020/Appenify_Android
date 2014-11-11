@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pop_event_type_lay" 
+    android:background="@color/transparent">
+    
+
+    <RadioGroup 
+        android:id="@+id/eventTypeRadio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        >
+        
+        
+          <RadioButton
+    android:id="@+id/julyparty_radio"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:button="@null"
+    android:drawableRight="@android:drawable/btn_radio"
+  
+    android:paddingLeft="20dip"
+    android:text="@string/julyparty"
+    android:textColor="#000000" />
+
+   <RadioButton
+    android:id="@+id/after_party_radio"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:button="@null"
+    android:drawableRight="@android:drawable/btn_radio"
+      android:textColor="#000000"
+    android:paddingLeft="20dip"
+    android:text="@string/after_party"
+      /> 
+     
+       <RadioButton
+    android:id="@+id/anniversary_party_radio"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:button="@null"
+    android:drawableRight="@android:drawable/btn_radio"
+      android:textColor="#000000"
+    android:paddingLeft="20dip"
+    android:text="@string/anniversary_party"
+      /> 
+        <RadioButton
+    android:id="@+id/baby_shower_radio"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:button="@null"
+    android:drawableRight="@android:drawable/btn_radio"
+      android:textColor="#000000"
+    android:paddingLeft="20dip"
+    android:text="@string/baby_shower"
+      /> 
+        <RadioButton
+    android:id="@+id/bachelor_party_radio"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:button="@null"
+    android:drawableRight="@android:drawable/btn_radio"
+      android:textColor="#000000"
+    android:paddingLeft="20dip"
+    android:text="@string/bachelor_party"
+      /> 
+        <RadioButton
+    android:id="@+id/bachelorette_radio"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:button="@null"
+    android:drawableRight="@android:drawable/btn_radio"
+      android:textColor="#000000"
+    android:paddingLeft="20dip"
+    android:text="@string/bachelorette"
+      /> 
+        <RadioButton
+    android:id="@+id/barbeque_radio"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:button="@null"
+    android:drawableRight="@android:drawable/btn_radio"
+      android:textColor="#000000"
+    android:paddingLeft="20dip"
+    android:text="@string/barbeque"
+      /> 
+        <RadioButton
+    android:id="@+id/birthday_party_adults_radio"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:button="@null"
+    android:drawableRight="@android:drawable/btn_radio"
+      android:textColor="#000000"
+    android:paddingLeft="20dip"
+    android:text="@string/birthday_party_adults"
+      /> 
+        <RadioButton
+    android:id="@+id/birthday_party_kids_radio"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:button="@null"
+    android:drawableRight="@android:drawable/btn_radio"
+      android:textColor="#000000"
+    android:paddingLeft="20dip"
+    android:text="@string/birthday_party_kids"
+      /> 
+      
+         <RadioButton
+    android:id="@+id/Block_party_radio"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:button="@null"
+    android:drawableRight="@android:drawable/btn_radio"
+      android:textColor="#000000"
+    android:paddingLeft="20dip"
+    android:text="@string/Block_party"
+      /> 
+      
+    </RadioGroup>
+</RelativeLayout>

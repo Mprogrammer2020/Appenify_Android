@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    
+
+    <RelativeLayout 
+        android:id="@+id/aboutLay"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:background="@color/orange_button">
+        
+        <RelativeLayout 
+            android:id="@+id/back_Layout"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:paddingLeft="5dp"
+            >
+              <ImageView 
+            android:id="@+id/map_back_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/back"
+            android:layout_centerVertical="true"/>
+            
+        </RelativeLayout>
+      
+        
+       
+        
+        <TextView 
+            android:id="@+id/mediaView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/map_title"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            />
+        
+       
+          
+    </RelativeLayout>
+    
+    
+     <RelativeLayout
+        android:id="@+id/map_rllayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/aboutLay"
+        android:layout_above="@+id/bottomlayout" >
+
+        <FrameLayout
+            android:id="@+id/map_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true" >
+
+            
+      <fragment 
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+         
+         
+           <LinearLayout 
+                 android:id="@+id/mapbuttonlayout"                 
+                 android:layout_width="wrap_content"           
+                 android:layout_height="wrap_content"
+                 android:layout_margin="3dp"
+                 android:layout_gravity="right"
+                 android:orientation="horizontal">             
+                
+                <TextView 
+                    android:id="@+id/more_Map"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/more"
+                    android:background="@drawable/border_map"
+                       android:paddingRight="6dp"
+                    android:paddingLeft="6dp" 
+            		 android:paddingTop="4dp"
+                    android:paddingBottom="4dp" 
+                    android:textSize="25sp"
+                    
+                    android:onClick="chaneMapView" />      
+                    
+                
+               <TextView 
+                    android:id="@+id/map_simpleee"
+                     android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/map"
+                    android:background="@drawable/border_map"
+                        android:paddingRight="6dp"
+                    android:paddingLeft="6dp"
+                   
+                    android:textSize="25sp"
+                     android:paddingTop="4dp"
+                    android:paddingBottom="4dp" 
+                    android:onClick="chaneMapView"   />   
+                    
+                <TextView 
+                    android:id="@+id/satellite_map"
+                     android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/satelite"
+                    android:background="@drawable/border_map"
+                        android:paddingRight="6dp"
+                    android:paddingLeft="6dp"
+                    android:textSize="25sp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" 
+                  android:onClick="chaneMapView"
+                    />   
+                    
+                <TextView 
+                    android:id="@+id/earth_map"
+                     android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/earth"
+                    android:background="@drawable/border_map"
+                      android:paddingRight="6dp"
+                    android:paddingLeft="6dp"
+                    android:textSize="25sp"
+                      android:paddingTop="4dp"
+                    android:paddingBottom="4dp"  
+                   android:onClick="chaneMapView"
+                    /> 
+                    
+            </LinearLayout>
+            
+           
+           
+        </FrameLayout>
+        
+        
+         </RelativeLayout>
+        
+     
+        <LinearLayout
+            android:id="@+id/bottomlayout"
+            android:layout_margin="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:weightSum="100"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom">
+        
+            <LinearLayout 
+                 android:id="@+id/bottomlayoutleft"                 
+                 android:layout_width="0dp"
+                 android:layout_weight="60"
+                 android:layout_height="wrap_content">
+                
+                <TextView 
+                    android:id="@+id/map_address_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:text="@string/map_location"
+                    android:onClick="chaneMapView"/>
+                
+            </LinearLayout>
+            
+            
+            <LinearLayout 
+                 android:id="@+id/bottomlayoutright"                 
+                 android:layout_width="0dp"
+                 android:layout_weight="40"
+                 android:layout_marginLeft="5dp"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+                
+                <ImageView 
+                    android:id="@+id/carimage"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/car"
+                    android:layout_gravity="center"
+                    android:onClick="chaneMapView"
+                    />
+                
+                <TextView 
+                    android:id="@+id/car_address_text12"
+                     android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/car_time"
+                    android:textSize="24sp"
+                    android:onClick="chaneMapView"/>
+                
+            </LinearLayout>
+        </LinearLayout>
+            
+            
+</RelativeLayout>
+        
+        
+        
+        
+        
+   
+    
+ 
+        

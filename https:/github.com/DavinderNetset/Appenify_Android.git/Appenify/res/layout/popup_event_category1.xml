@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:id="@+id/pop_event_caregory_lay">
+    
+
+    <RelativeLayout 
+        android:id="@+id/aboutLa11y"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/orange_button"
+        
+        >
+        
+        <RelativeLayout 
+             android:layout_width="40dp"
+        android:layout_height="fill_parent"
+         android:id="@+id/actionbar_Btn_mediaLay"
+            >
+        <ImageView 
+            android:id="@+id/actionbar_Btn_media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:layout_centerVertical="true"
+            android:layout_margin="6dp"
+            android:padding="2dp"/>
+        
+        </RelativeLayout>
+        <TextView 
+            android:id="@+id/mediaView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fav_event_cat"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:singleLine="true"
+            />
+        
+       
+         <RelativeLayout 
+             android:layout_width="40dp"
+        android:layout_height="fill_parent"
+         android:id="@+id/rightactionbar_Btn_mediaLay"
+         android:layout_alignParentRight="true"
+            >
+        <ImageView 
+            android:id="@+id/arightbar_Btn_media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tick_icon"
+            android:layout_centerVertical="true"
+            android:layout_margin="4dp"
+            android:padding="3dp"/>
+        
+        </RelativeLayout>
+        
+          
+    </RelativeLayout>
+    
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:gravity="center"
+android:paddingTop="20dp"
+android:paddingBottom="20dp"
+android:layout_below="@+id/aboutLa11y"
+    android:id="@+id/pop_event_caregory_lay11">
+    
+        
+    <LinearLayout 
+        android:id="@+id/firstLay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        
+        >
+        <LinearLayout 
+        android:id="@+id/sportsBtnLay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         android:layout_weight="1"
+        >
+        
+        <ImageView 
+            android:id="@+id/sportsBtn"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/sport_unselected_3x"
+            android:layout_margin="6dp"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sports"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            />
+        
+        </LinearLayout>
+        
+         <LinearLayout 
+        android:id="@+id/partyLay2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         android:layout_weight="1"
+        >
+        <ImageView 
+            android:id="@+id/partyBtn"
+           android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/party_selected_3x"
+            android:layout_margin="6dp"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/party"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            />
+        
+        </LinearLayout>
+        
+          <LinearLayout 
+        android:id="@+id/meetingLay3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         android:layout_weight="1"
+        >
+        <ImageView 
+            android:id="@+id/mettingBtn"
+          android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/meeting_unselected_3x"
+            android:layout_margin="6dp"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/meeting"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            />
+        
+
+    </LinearLayout>
+    
+
+</LinearLayout>
+    
+    
+    
+          <LinearLayout 
+        android:id="@+id/secondLay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/firstLay"
+        >
+        
+               <LinearLayout 
+        android:id="@+id/musicartLay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         android:layout_weight="1"
+        >
+        <ImageView 
+            android:id="@+id/musicArtBtn"
+          android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/music_unselected_3x"
+            android:layout_margin="6dp"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/music_artt"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            />
+        
+        </LinearLayout>
+        
+              
+                <LinearLayout 
+        android:id="@+id/weddingLay2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         android:layout_weight="1"
+        >
+        <ImageView 
+            android:id="@+id/weddingBtn"
+       android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/wedding_unselected_3x"
+            android:layout_margin="6dp"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wedding"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            />
+        
+        </LinearLayout>
+        
+                 <LinearLayout 
+        android:id="@+id/festivalLay3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         android:layout_weight="1"
+        >
+        
+        <ImageView 
+            android:id="@+id/festivalBtn"
+          android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/festival_unselected_3x"
+             android:layout_margin="6dp"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/festival"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            />
+        
+        </LinearLayout>
+    </LinearLayout>
+    
+              
+          <LinearLayout 
+        android:id="@+id/thirdLay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/secondLay"
+        >
+        
+               <LinearLayout 
+        android:id="@+id/meetupLay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        
+        <ImageView 
+            android:id="@+id/meetupBtn"
+      android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/meet_up_unselected_3x"
+            android:layout_margin="6dp"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/meet_up"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            />
+        
+        </LinearLayout>
+        
+               
+                    <LinearLayout 
+        android:id="@+id/outdoorLay2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <ImageView 
+            android:id="@+id/outdoorBtn"
+         android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/outdoor_unselected_3x"
+            android:layout_margin="6dp"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/outdoors"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            />
+        
+        </LinearLayout>
+        
+                         <LinearLayout 
+        android:id="@+id/otherLay3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        
+        <ImageView 
+            android:id="@+id/otherlBtn"
+    android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/other_unselected_3x"
+            android:layout_margin="6dp"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/others"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            />
+        
+        </LinearLayout>
+        
+    </LinearLayout>
+    </RelativeLayout>
+    
+</RelativeLayout>

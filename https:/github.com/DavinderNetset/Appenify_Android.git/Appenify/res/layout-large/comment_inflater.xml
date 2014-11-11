@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+     android:background="@drawable/bottom_gray_border"
+    >
+
+
+
+      <!--   <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:layout_weight="7" 
+           > -->
+
+            <ImageView
+                android:id="@+id/evnt_image"
+                android:layout_width="23dp"
+                android:layout_height="35dp"
+             android:layout_marginLeft="10dp"
+                android:background="@drawable/location1" 
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+             />
+
+            <TextView
+                android:id="@+id/evnt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:text="@string/Delhi_india"
+                android:textColor="@color/grayText"
+              
+                  android:layout_marginTop="13dp"
+                android:layout_marginBottom="8dp"
+                
+                android:layout_marginLeft="12dp"
+                android:textSize="25sp"
+                />
+
+            
+          <!--   <RelativeLayout 
+                 android:id="@+id/deleteItemsLay"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@color/red"
+                android:visibility="gone"
+                >
+            <TextView 
+                android:id="@+id/deleteItems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delete"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="16sp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                />
+            </RelativeLayout> -->
+            
+     <!--    </RelativeLayout> -->
+
+      
+
+
+</LinearLayout>

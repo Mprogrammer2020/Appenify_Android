@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+ 
+    
+    <RelativeLayout 
+        android:id="@+id/aboutLayfdfdf"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/orange_button"
+        
+        >
+        
+        <RelativeLayout 
+             android:layout_width="50dp"
+        android:layout_height="fill_parent"
+         android:id="@+id/backkonbar_Btn_mediaLay"
+         android:onClick="facEventAct"
+            >
+        <ImageView 
+            android:id="@+id/actionbar_Btn_media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:layout_centerVertical="true"
+            android:layout_margin="6dp"
+            android:padding="2dp"/>
+        
+        </RelativeLayout>
+        <TextView 
+            android:id="@+id/mediaView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/favorite_event_locations"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            />
+        
+        
+          <RelativeLayout 
+             android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/okkkckLayouttt"
+        android:layout_alignParentRight="true"
+        android:onClick="facEventAct"
+            >
+        <ImageView 
+            android:id="@+id/backonbar_Btn_media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tick_icon"
+            android:layout_centerVertical="true"
+            android:layout_margin="6dp"
+            android:padding="4dp"/>
+        
+        </RelativeLayout>
+        
+          
+       
+          
+    </RelativeLayout>
+    
+    
+
+    <EditText
+        android:id="@+id/serachbox"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/aboutLayfdfdf"
+        android:layout_marginLeft="5dp"
+        android:singleLine="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+       android:drawableLeft="@drawable/search"
+       android:layout_centerVertical="true"
+        android:background="@drawable/border_gray"
+        android:hint="@string/Enter_city" />
+
+    <LinearLayout
+        android:id="@+id/add_loc"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_below="@+id/serachbox"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:weightSum="3" >
+
+        <TextView
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/location_bttn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/bar_select"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="@string/Add_to_Favorite_locations"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+
+ <ListView
+        android:id="@+id/fav_locns"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/add_loc"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="8dp"
+        android:listSelector="@android:color/transparent" 
+	android:cacheColorHint="@android:color/transparent"  
+	  android:animateLayoutChanges="true"
+ 	  android:fadeScrollbars="true"
+    	android:smoothScrollbar="true" 
+	 >
+    </ListView>
+    
+	
+</RelativeLayout>

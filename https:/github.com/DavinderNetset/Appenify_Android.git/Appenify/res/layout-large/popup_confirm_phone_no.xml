@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/confirem_layyy"
+   >
+    
+    <RelativeLayout android:id="@+id/viewPhoneNumberPopUpContainer"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+ android:background="#ffffff">
+    
+<TextView android:id="@+id/viewPhoneNumberText1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:textSize="22sp"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    android:text="@string/confirm_no"/>
+
+<TextView android:id="@+id/viewPhoneNumberText2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="3dp"
+    android:textSize="15sp"
+    android:layout_below="@+id/viewPhoneNumberText1"
+    android:text="@string/correct_no"/>
+
+<TextView android:id="@+id/viewPhoneNumberText3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="5dp"
+    android:textSize="16sp"
+    android:textColor="#DF013A"
+    android:layout_below="@+id/viewPhoneNumberText2"
+    android:text="@string/phone_no"/>
+
+<LinearLayout android:id="@+id/viewPhoneNumberPopUpButtonContainer"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_below="@+id/viewPhoneNumberText3"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="50"
+    android:layout_marginTop="20dp"> 
+
+<Button
+     android:id="@+id/viewPhoneNumberPopUpEditButton"
+    android:layout_width="130dp"
+    android:layout_height="40dp"
+    android:text="@string/edit"
+    android:textColor="#ffffff"
+    android:textSize="16sp"
+    android:background="@color/gray"
+   android:layout_weight="20"
+    android:layout_marginLeft="12dp"/>
+
+<View android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:background="#ffffff"/>
+
+<Button 
+    android:id="@+id/viewPhoneNumberPopUpContinueButton"
+    android:layout_width="130dp"
+    android:layout_height="40dp"
+    android:text="@string/contnue"
+    android:textColor="#ffffff"
+    android:textSize="16sp"
+    android:background="@color/orange_button"
+    android:layout_weight="20"
+    android:layout_marginRight="12dp"/>
+
+</LinearLayout>   
+    </RelativeLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+   
+    <RelativeLayout 
+        android:id="@+id/mediaGAlleryLay"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/orange_button"
+        
+        >
+        
+         <RelativeLayout 
+        android:id="@+id/back_Btn_mediaLay"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:background="@color/orange_button"
+        android:layout_centerVertical="true"
+           android:onClick="imageFunction"
+        >
+        
+        <ImageView 
+            android:id="@+id/back_Btn_media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+                android:layout_centerVertical="true"
+            android:layout_margin="8dp"
+          
+         
+      />
+        
+        </RelativeLayout>
+        
+        <TextView 
+            android:id="@+id/mediaView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/media_gallery"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            
+            />
+        
+         <RelativeLayout 
+        android:id="@+id/next_Btn_mediaLay"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:background="@color/orange_button"
+        android:layout_centerVertical="true"
+        android:onClick="imageFunction"
+         android:layout_alignParentRight="true"
+        >
+        
+          <ImageView 
+            android:id="@+id/next_Btn_media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/next"
+              android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="7dp"
+          />
+          </RelativeLayout>
+    </RelativeLayout>
+    
+    
+    <LinearLayout 
+        android:id="@+id/photoVideoLay"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:background="@drawable/border_orange"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/mediaGAlleryLay"
+        >
+        
+        <Button 
+            android:id="@+id/photoButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/photos"
+            android:gravity="center"
+            android:background="@color/orange_button"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:onClick="imageFunction"
+            />
+        
+        <Button 
+            android:id="@+id/videoButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/video"
+            android:gravity="center"
+         android:layout_weight="1"
+         android:background="@color/white"
+         android:onClick="imageFunction"
+            />
+        
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/addPhotosVideoslay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/photoVideoLay"
+        android:background="@color/background"
+        >
+        
+        <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        
+        >
+        
+        
+            <ImageView 
+                android:id="@+id/addMorePhotos"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/add_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                />
+            
+            
+            <TextView 
+                android:id="@+id/taptoaddView"
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tap_to_add_photos"
+                 android:layout_centerHorizontal="true"
+                android:layout_below="@+id/addMorePhotos"
+                />
+            
+            </RelativeLayout>
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/gridVIewLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addPhotosVideoslay"
+        android:layout_margin="15dp"
+        >
+        
+        <GridView 
+            android:id="@+id/gridViewMedia"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3"
+             
+    android:horizontalSpacing="10dp"
+    android:verticalSpacing="4dp"
+    android:gravity="center"
+    android:stretchMode="columnWidth"
+    
+    
+    android:layout_margin="5dp"
+        android:columnWidth="100dp"
+        
+        android:drawSelectorOnTop="true"
+        >
+            
+        </GridView>
+
+      
+
+    </RelativeLayout>
+
+    
+    
+     <RelativeLayout
+        android:id="@+id/fullscreenLay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+	android:visibility="gone"
+      android:background="#66424242" 
+      android:onClick="imageFunction"
+      >
+
+        <RelativeLayout 
+              android:layout_width="match_parent"
+        android:layout_height="300dp"
+          android:layout_centerInParent="true"
+            >
+         <ImageView
+        android:id="@+id/full_image_view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:layout_marginRight="18dp"
+       android:layout_marginLeft="18dp"
+        android:onClick="imageFunction" />
+         
+          <ImageView
+            android:id="@+id/cancelWindow1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+           android:background="@drawable/cross" 
+          android:layout_alignParentRight="true"
+          android:layout_marginLeft="18dp"
+          android:layout_marginTop="30dp"
+         android:onClick="imageFunction"  />
+          
+          
+          <ImageView 
+              android:id="@+id/previousImageBtn"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/back"
+              android:layout_centerVertical="true"
+              android:padding="6dp"
+              android:layout_marginLeft="20dp"
+           />
+          
+          <ImageView 
+              android:id="@+id/nextImageBtn"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/next"
+              android:layout_centerVertical="true"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="20dp"
+              android:padding="6dp"
+        
+          />
+          
+          </RelativeLayout>
+    </RelativeLayout>
+    
+     
+     <RelativeLayout 
+         android:id="@+id/videoViewLay"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_below="@+id/addPhotosVideoslay"
+       android:visibility="gone"
+         >
+         
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Video View"
+             android:textSize="20dp"
+             android:layout_centerInParent="true"
+             />
+         
+     </RelativeLayout>
+</RelativeLayout>
